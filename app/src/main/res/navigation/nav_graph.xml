@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.cartoonizedimage.fragments.MainFragment"
+        android:name="com.example.styletransfer.fragments.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
     <fragment
         android:id="@+id/cartoonizerFragment"
-        android:name="com.example.cartoonizedimage.fragments.CartoonizerFragment"
+        android:name="com.example.styletransfer.fragments.CartoonizerFragment"
         android:label="fragment_cartoonized"
         tools:layout="@layout/fragment_cartoonizer" />
     <fragment
         android:id="@+id/styleTransferFragment"
-        android:name="com.example.cartoonizedimage.fragments.StyleTransferFragment"
+        android:name="com.example.styletransfer.fragments.StyleTransferFragment"
         android:label="fragment_style_transfer"
         tools:layout="@layout/fragment_style_transfer" />
 </navigation>
